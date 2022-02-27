@@ -1,0 +1,38 @@
+html{
+    box-sizing: border-box;
+    }
+
+
+    @media screen and (min-width: 601px) {
+        .header {
+          font-size: 15px;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .header {
+          font-size: 8px;
+        }
+      }
+
+  *, *::before, *::after{
+    box-sizing: inherit;
+  }
+
+
+
+
+
+
+  body {   
+    /* Местоположение фоновой картинки */   background-image: url(../img/kaba.jpg);      
+    /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */   background-position: center center;      
+    /* Фон не повторяется */   background-repeat: no-repeat;      
+    height: 6138px;
+    min-width: 99%;
+    max-width: 100%;
+
+    border-radius: 0px;
+
+    /* Фон зафиксирован в области просмотра и потому не двигается, когда высота контента превышает высоту изображения */       
+    /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/   background-size: cover;      
+    /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/   background-color: #464646; }
